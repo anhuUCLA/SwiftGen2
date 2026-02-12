@@ -11,12 +11,12 @@ end
 # In addition to :build, for contributing
 group :development do
   gem 'cocoapods', '~> 1.11.0'
-  gem 'danger', '~> 8.4'
+  gem 'danger', '~> 9.2', '>= 9.2.0'
   gem 'rubocop', '~> 1.22'
 end
 
 # For releasing to GitHub
 group :release do
-  gem 'octokit', '~> 4.7'
+  gem 'octokit', '~> 5.0', '>= 5.0.0'
   gem 'plist', '~> 3.6'
 end
